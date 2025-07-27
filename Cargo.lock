@@ -1900,16 +1900,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-blocks"
-version = "0.1.0"
-dependencies = [
- "futures",
- "parity-scale-codec",
- "subxt",
- "tokio",
-]
-
-[[package]]
 name = "rustc-demangle"
 version = "0.1.25"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2680,6 +2670,16 @@ dependencies = [
  "scale-info",
  "sp-crypto-hashing",
  "thiserror 2.0.12",
+]
+
+[[package]]
+name = "subxt-play"
+version = "0.1.0"
+dependencies = [
+ "futures",
+ "parity-scale-codec",
+ "subxt",
+ "tokio",
 ]
 
 [[package]]

@@ -1,6 +1,10 @@
 # Subxt Playground
-A small Rust program to test **Subxt** features targetting a **Polkadot** node. Each feature is tested in it's own function.
+A small Rust program to test **Subxt** features targeting a **Polkadot** node.
 
-## Polkadot Transfer Events
+## Transfer Events
 
-A small Rust program that parses **Polkadot** blocks and fetch information about transfer events, using **Subxt**.
+A small Rust program that parses **Polkadot** blocks and fetch information about transfer events.
+``` rust
+print_transfer_extrinsics()
+```
+
